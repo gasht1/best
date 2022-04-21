@@ -1,0 +1,39 @@
+.n_container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.right{
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    display: flex;
+    font-weight: 400;
+}
+.r-list{
+    display: flex;
+    flex: 10;
+}
+.r-list >ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+}
+.r-list >ul >li:hover{
+    cursor: pointer;
+    color: orange;
+}
+
