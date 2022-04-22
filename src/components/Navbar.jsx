@@ -4,10 +4,10 @@ const Navbar=()=> {
   return (
     <div className="n_container">
         <div className="left">
-            <div className="name">gashaw</div>
+            <div className="name">Dreamer</div>
             <span>toggle</span>
         </div>
-        <div className="right">
+        <div className="rightn">
             <div className="r-list">
                 <ul>
                     <li>home</li>
@@ -18,7 +18,7 @@ const Navbar=()=> {
                     
                 </ul>
             </div>
-            <button className='btn'> contact us</button>
+            <button className='btn'> contact </button>
         </div>
     </div>
   )

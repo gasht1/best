@@ -1,0 +1,41 @@
+.experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin-bottom: px;
+    gap: 5rem;
+
+}
+.achivement{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+.circle{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    background-color: white;
+    align-items: center;
+    font-weight: bold;font-size: 1.5rem;
+    position: relative;
+    justify-content: center;
+    display: flex;
+
+}
+.circle::before{
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, #87e6fb 0%,#ffc05c 100%);
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+}
+.achivement span:nth-child(3){
+    color: orange;
+}
