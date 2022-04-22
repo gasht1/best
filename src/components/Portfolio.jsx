@@ -7,7 +7,7 @@ const Portfolio = () => {
         <span>portfolio</span>
         <Swiper>
             <SwiperSlide>
-                <img src={Image/} alt="" />
+                <img src=""alt="" />
             </SwiperSlide>
         </Swiper>
     </div>
