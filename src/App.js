@@ -13,6 +13,10 @@ import Experience from './components/Experience';
 import './components/Experience.css'
 import Portfolio from './components/Portfolio';
 import'./components/Portfolio.css';
+import 'swiper/css';
+import Testimonial from './components/Testimonial';
+import'./components/Testimonial.css'
+
 
 const App =()=> {
   return (
@@ -22,6 +26,7 @@ const App =()=> {
       <Services/>
       <Experience/>
       <Portfolio/>
+      <Testimonial/>
     </div>
   )
 }
